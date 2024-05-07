@@ -1,0 +1,54 @@
+/* Regole Generali Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+/* Regole css Header */
+
+header{
+    height: 10vh;
+    width: 100%;
+    /* Debug */
+    border-bottom: 2px solid grey;
+    background-color: #000;
+}
+
+/* Regole css Main */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.videocam{
+    height: 100px;
+    width: calc( 100% / 7 - 40px );
+    margin: 20px;
+    /* Debug */
+    background-color: white;
+}
+
+/* Regole css del Footer */
+
+footer{
+    height: 10vh;
+    width: 100%;
+    /* Debug */
+    border-top: 2px solid grey;
+    background-color: #fff;
+
+}
