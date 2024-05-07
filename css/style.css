@@ -20,9 +20,25 @@ body{
 header{
     height: 10vh;
     width: 100%;
+    position: relative;
     /* Debug */
     border-bottom: 2px solid grey;
     background-color: #000;
+}
+
+.tool-bar{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.tool-bar a{
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px;
+    margin-right: 5px;
 }
 
 /* Regole css Main */
