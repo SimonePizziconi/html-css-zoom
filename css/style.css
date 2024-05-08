@@ -11,10 +11,11 @@ body{
 }
 
 
+
 /* Regole css Header */
 
 header{
-    height: 10vh;
+    height: 80px;
     width: 100%;
     position: relative;
     background-color: #000;
@@ -40,11 +41,12 @@ header{
 /* Regole css Main */
 
 main{
+    height: calc(100vh - 160px);
+    padding: 0 50px;
     display: flex;
     flex-wrap: wrap;
     overflow-y: auto;
-    height: 80vh;
-    padding: 0 50px;
+    
 }
 
 .videocam{
@@ -79,7 +81,7 @@ main{
 /* Regole css del Footer */
 
 footer{
-    height: 10vh;
+    height: 80px;
     width: 100%;
     background-color: #222222;
     display: flex;
